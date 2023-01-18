@@ -96,6 +96,7 @@ nav .fa{
     }
     .nav-links ul li{
         display:block;
+       overflow-x: hidden;
         
     }
     .nav-links{
