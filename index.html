@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+     <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1">
+     <title>Cai Web - A place for every caisen</title>
+     <link rel="stylesheet" href="style.css">
+     <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<section class="header">
+     <nav>
+          <a href="index.html"><img src="images/logo.png"></a>
+           <div class="nav-links" id="navLinks">
+               <i class="fa fa-times" onclick="hideMenu()"></i>
+               <ul>
+                     <li><a href="">HOME</a></li>
+                     <li><a href="">ABOUT</a></li>
+                     <li><a href="">PROFILE</a></li>
+                    <li><a href="">ROOMS</a></li>
+                    <li><a href="">CONTACT US</a></li>
+               </ul>
+
+          </div>
+          <i class="fa fa-bars" onclick="showMenu()"></i>
+     </nav>
+
+     <div class="text-box">
+          <h1>ONE GREAT CAISENIANS</h1>
+          <p>A place for every caisenians needs like class schedules, class teachers,<br> room numbers and strands</p>
+
+          <a href="" class="hero-btn">Visit Us To Chismis More</a>
+
+     </div>
+
+</section>
+
+<!-------------------Course-------------------->
+<section class="course">
+     <h1>Courses we offer</h1>
+     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+</section>
+
+
+
+
+
+
+<!--------JavaScript for Toggle Menu---------->
+
+<script>
+
+     var navLinks = document.getElementById("navLinks");
+
+     function showMenu(){
+          navLinks.style.right = "0";
+     }
+     function hideMenu(){
+          navLinks.style.right = "-200px";
+     }
+</script>
+
+</body>
+</html>
